@@ -253,7 +253,7 @@
     - `||` OR
         - false || false -> false
         - everything else is true
-[x]- Strings `(important to know)`
+-[x] Strings `(important to know)`
     - Are objects in Java, not primitives
     - Sequences of characters
     - Immutable (when a String object is created in memory, its characters cannot be changed)
@@ -270,7 +270,7 @@
         - `.toLowerCase()`
         - `.toUpperCase()`
         - `.trim()`
-[x]- Arrays `(important to know)`
+-[x] Arrays `(important to know)`
     - A contiguous block of memory that stores a group of sequentially stored elements of the same type
     - Fixed in size: once an array is created, its size cannot be changed
     - Arrays can be used for both primitive and object types
@@ -406,7 +406,8 @@
     - Specify types as parameters
     - Allows us to avoid type-safety issues (ClassCastException)
     - Enforces type checking for methods
-    - Commonly used with collections to specify type stored in a collection
+    - Commonly used with collections to specify t
+    - ype stored in a collection
 
 # Memory Managemnet
 - Call Stack
