@@ -253,7 +253,7 @@
     - `||` OR
         - false || false -> false
         - everything else is true
-- Strings (important to know)
+[x]- Strings `(important to know)`
     - Are objects in Java, not primitives
     - Sequences of characters
     - Immutable (when a String object is created in memory, its characters cannot be changed)
@@ -270,7 +270,7 @@
         - `.toLowerCase()`
         - `.toUpperCase()`
         - `.trim()`
-- Arrays
+[x]- Arrays `(important to know)`
     - A contiguous block of memory that stores a group of sequentially stored elements of the same type
     - Fixed in size: once an array is created, its size cannot be changed
     - Arrays can be used for both primitive and object types
@@ -286,9 +286,10 @@
             - Same as above, but without using `new int[]`
 - Classes and Objects
     - Classes are blueprints for creating objects in memory
-        - Classes are named with CamelCase convention
+        - Classes are named with PascalCase convention
         - Fields and methods are named with lowercase camelCase
     - Objects represent real world entities / things
+        - Objects are anmed in camelCase
         - Objects possess properties (fields) + behaviors (methods)
         - An object is created using a constructor defined in a class
             - `new` keyword is used
