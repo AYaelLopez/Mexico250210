@@ -253,7 +253,7 @@
     - `||` OR
         - false || false -> false
         - everything else is true
-- Strings
+- Strings (important to know)
     - Are objects in Java, not primitives
     - Sequences of characters
     - Immutable (when a String object is created in memory, its characters cannot be changed)
